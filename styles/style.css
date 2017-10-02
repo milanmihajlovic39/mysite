@@ -1,0 +1,180 @@
+@import url("https://fonts.googleapis.com/css?family=Comfortaa:400,700,300|Quattrocento");
+
+body {
+  height: 100%;
+  font-family: "Comfortaa", Helvetica, Arial, sans-serif;
+  background-color: #25b79f;
+  /* Margin bottom by footer height */
+  margin-bottom: 60px; 
+  margin-left:0;
+  margin-right:0;
+  color: white;}
+
+  /* Global */
+.container {
+  width: 80%;
+  margin: auto;
+  overflow: hidden; /* koristi se kad nam nesto prevazilazi duzinu diva da bude skriveno umesto da se pojavi scroll bar */
+}
+
+header {
+  
+  color: #ffffff;
+  padding-top: 30px;
+  min-height:70px;
+  
+}
+
+header a {
+  color: #ffffff;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 16px;
+}
+
+
+header li {
+  float: left;
+  display: inline;
+  padding: 0 20px 0 20px; /* top right bottom left */
+}
+
+header #branding{
+  float: left;
+}
+
+header #branding h1 {
+  margin:0;
+}
+
+header nav {
+  float:right;
+  margin-top: 10px;
+}
+
+header .highlight, header .current a{
+  color: #e8491d;
+  font-weight: bold;
+}
+
+header a:hover {
+  color: #cccccc;
+  font-weight: bold;
+}
+
+
+#about{
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 100px;
+}
+
+
+
+
+.img-circle {
+    border-radius: 50%;
+}
+
+.footer {
+  margin: 0;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 100px;
+  background-color: #07374a;
+  color: #f0f0e6; }
+
+.footer p{
+  text-align: center;
+  padding-top: 45px;
+
+}
+
+
+
+/* Font awesome Icons: */
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+.fa-google {
+  background: #dd4b39;
+  color: white;
+}
+
+.fa-github{
+  background: black;
+  color: white;
+}
+
+#contact ul{
+  list-style-type: none;
+  float: left;
+  margin-bottom: 200px;
+  margin-top: 30px;
+}
+
+#contact ul li{
+  display: inline;
+  margin:10px;
+}
+
+.mail-contact{
+  margin-top: 60px;
+  margin-bottom: 60px;
+}
+
+.social{
+  margin-bottom: 400px;
+}
+
+
+.project {
+  margin-bottom: 20px;
+  border: 3px solid white;
+  
+  height: 200px;
+
+}
+
+.project h3{
+  
+  
+  text-align: center;
+  margin-top: 30px;
+}
+.project p{
+  
+  width: 100%;
+  text-align: center;
+}
+
+.project a{
+  text-decoration: none;
+  color: #07374a;
+}
+
+
+
+
+
