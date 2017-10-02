@@ -40,7 +40,7 @@ http.createServer(function(req, res){
 
 	}else if(stats.isDirectory()){
 		res.writeHead(302, {
-			'Location' : 'welcomePage.html'
+			'Location' : 'index.html'
 		});
 		res.end(); 
 
