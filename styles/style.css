@@ -180,3 +180,90 @@ header a:hover {
 
 
 
+/* Media Query */
+
+@media(max-width: 768px){
+  header #branding,
+  header nav{
+    float: none;
+    text-align: center;
+    width: 100%;
+  }
+
+  header{
+    padding-bottom: 20px;
+    text-align: center;
+  }
+
+  header nav ul li a{
+    font-size: 12px;
+    margin: 2px;
+    padding: 0;
+  }
+   header nav ul{
+    list-style-type: none;
+    display: inline-block;
+    padding: 0;
+    overflow: hidden;
+  }
+
+  header nav ul li{
+    float: left;
+    text-align: center;
+    margin: 0px;
+    padding: 0;
+  }
+
+  #about h1{
+    font-size: 15px;
+  }
+
+  #about p{
+    font-size: 11px;
+  }
+
+  #about img{
+    height: 100px;
+    width: 100px
+  }
+
+  .footer{
+    font-size: 11px;
+  }
+
+  #projects h2, h3{
+    font-size: 15px;
+  }
+
+  #projects p{
+    font-size: 11px;
+  }
+
+  #contact h2{
+    font-size: 15px;
+  }
+
+  #contact p{
+    font-size: 12px;
+  }
+
+  #contact ul{
+    display: inline-block;
+    text-align: center;
+    
+  }
+
+  #contact ul li{
+    float: left;
+    text-align: center;
+    margin: 2px;
+    padding: 0;
+  }
+
+  .mail-contact{
+    margin-top: 0px;
+    margin-bottom: 0px;
+
+  }
+
+}
