@@ -229,6 +229,8 @@ header a:hover {
 
   .footer{
     font-size: 11px;
+    margin-bottom: 0;
+    bottom:0;
   }
 
   #projects h2, h3{
@@ -258,6 +260,7 @@ header a:hover {
     text-align: center;
     margin: 2px;
     padding: 0;
+    width: 45%;
   }
 
   .mail-contact{
