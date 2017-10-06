@@ -2,15 +2,15 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width">
-    <meta name="description" content="Rent apartment with best prices!">
-    <meta name="keywords" content="Apartment, Apartment with best price, Rent apartment">
+    <meta name="description" content="My personal portfolio website">
+    <meta name="keywords" content="web design, professional, portfolio">
     <meta name="author" content="Milan Mihajlovic">
-    <meta property="og:image" content="http://www.audiologistsalaryhub.com/wp-content/uploads/2015/02/Rent-Apartments.jpg" />
-    <link rel="icon" type="image/png" href="https://cdn2.iconfinder.com/data/icons/places-4/100/home_place_marker_location_house_apartment-512.png">
+    <meta property="og:image" content="https://cdn4.iconfinder.com/data/icons/humans-sketches/100/boy_Nice_guy-256.png" />
+    <link rel="icon" type="image/png" href="https://cdn4.iconfinder.com/data/icons/humans-sketches/100/boy_Nice_guy-256.png">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <title>Welcome</title>
+    <title>About</title>
     <link rel="stylesheet" href="./styles/style.css">
-    
+    <script src="./js/index.js"></script>
   </head>
   <body>
 
@@ -18,71 +18,33 @@
     <header>
     <div class="container">
       <div id="branding"> 
-      	<img src="https://cdn2.iconfinder.com/data/icons/places-4/100/home_place_marker_location_house_apartment-512.png" alt="Cheetah!" class="img-circle" />
+      	<img src="https://cdn4.iconfinder.com/data/icons/humans-sketches/100/boy_Nice_guy-256.png" alt="Cheetah!" class="img-circle" />
       </div>
       <nav>
         <ul>
-          <li class="current" ><a href="index.html">My Rent</a></li>
-          <li><a href="#">Search</a></li>
-          <li><a href="#">List a property</a></li>
-          <li><a href="#">Search</a></li>
-          <li class="reg_link"><a href="#">Register</a></li>
-          <li ><a href="#">Login</a></li>
+          <li class="current" ><a href="index.html">About</a></li>
+          <li><a href="portfolio.html">Portfolio</a></li>
+          <li><a href="contact.html">Contact</a></li>
         </ul>
       </nav>
     </div>
   </header>
-  
-  <div class="centerMe">
-  <div class='cta' >
-    <span class="tooltip swing" data-title="Find apartments in your city &#9812;">Search city</span>
-    <form>
-      <div class='input'>
-        <input placeholder='City name'>
-      </div>
-      <div class='button'>
-        <button disabled='disabled' type='submit'>Search</button>
-      </div>
-    </form>
-  </div>
-</div>
+
+  <section id="about">
+    <div class="container">
+      <h1> Hi, I'm Milan </h1>
+      <p>A Web Developer in training </p>
+      <img src="./img/profile-img.png" class="img-circle" height="50%; width: 50%">
+      <p>I'm from Ruma, Serbia. I'm currently learning Javascript development . I also have degree in Electrical and Computer Engineering and I can't wait till I get to the point where I can jump into the more interactive data visualizations and put what I'm learning to good use. </p>
+    </div>
+  </section>
 
 
   <footer class="footer">
    <p> Milan Mihajlović, Copyright &copy; 2017</p>
   </footer>
-
-
-
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-     <script>
-     	
-     	    $(document).ready(function(){
-        $(".cta span").click(function(){
-    $(".cta:not(.sent)").addClass("active");
-    $("input").focus();
-});
-
-var regex = /^[a-zA-Z ]*$/;
-
-$("input").on('input', function(){
-    if(regex.test($(this).val())) {
-        $("button").removeAttr("disabled"); }
-    else {
-        $("button").attr("disabled", "disabled"); }
-});
-
-$("form").submit(function(x){
-    x.preventDefault();
-    if(regex.test($("input").val())) {
-        $(".cta span").text("Success!");
-        $(".cta").removeClass("active").addClass("sent");
-    }
-});
-    });
-
-     </script>
- 	
+    
+ 
 
   </body>
 
