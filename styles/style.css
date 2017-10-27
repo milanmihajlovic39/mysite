@@ -1,12 +1,15 @@
 @import url("https://fonts.googleapis.com/css?family=Comfortaa:400,700,300|Quattrocento");
 
+.wrapper{min-height:100%;position:relative;}
+
+
 body {
   
   font-family: "Comfortaa", Helvetica, Arial, sans-serif;
   background-color: #25b79f;
   
   margin:0;
-  padding: 0;
+  padding: 0px;
   color: white;}
 
   /* Global */
@@ -77,11 +80,9 @@ header a:hover {
 }
 
 .footer {
-  position: relative;
-  bottom: 0;
-  left: 0;
+
   width: 100%;
-  /* Set the fixed height of the footer here */
+
   height: 100px;
   background-color: #07374a;
   color: #f0f0e6; }
